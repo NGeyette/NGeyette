@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<!-- CSS Info -->
+.image-background {
+  padding: 20px;
+  text-align: center;
+  background: #000000;
+  color: white;
+  font-size: 15px;
+}
+.header2 {
+  padding: .px;
+  text-align: center;
+  background: #;
+  color: black;
+  font-size: 12pt;
+}
+.hd-info {
+  position: relative;
+  font-family: Tahoma;
+  color: black;
+  font-size: 16pt
+}
+.box {
+    float: left;
+    width: 200px;
+    margin-left: 10px;
+    margin-top: 10px;
+    padding: 5px;
+    border: 2px solid black;
+}
+  <div class="image-background">
+    <img src="https://www.readylift.com/media/logo/stores/1/Logo_2x.png" alt="ReadyLift" width="317" height="45">
+  </div>
+  <div class="header2">
+    <h1 class="main">Vehicle Test Form</h1>
+  </div>
+
+<!-- This is Background Color -->
+  <body style="background-color:B2BEB5;"></body>
+
+<!-- This is the User Information Section -->
+  <h1 class="hd-info">User Information</h1>
+    <form class="form-inline" action="/action_page.php">
+    <div>
+     <label for="name">Year:</label>
+       <input type="first" placeholder="First Name">
+     <label for="name">Make:</label>
+       <input type="make" placeholder="Last Name">
+     <label for="model">Are you a ReadyLift employee?
+       <input type="checkbox" name="Yes"> Yes
+       <input type="checkbox" name="No"> No
+     </label>
+     </div>
+    </form>
+
+<!-- This is the Vehicle Information Section -->
+  <h2 class="hd-info">Vehicle Information</h2>
+   <form class="form-inline" action="/action_page.php">
+     <div id="vehicle-info">
+      <label for="year">Year:</label>
+        <input type="year" placeholder="Year">
+      <label for="make">Make:</label>
+        <input type="make" placeholder="Make">
+      <label for="model">Model:</label>
+        <input type="model" placeholder="Model">
+     </div>   
+     <div>
+      <label for="model">Is the vehicle modified?
+        <input type="checkbox" name="Yes"> Yes
+        <input type="checkbox" name="No"> No
+      </label>
+     </div>
+   </form>
+
+<!-- This is the Kit Information Section -->
+  <h3 class="hd-info">Kit Information</h2>
+     <form class="form-inline" action="/action_page.php">
+       <div id="vehicle-info">
+        <label for="year">What product is installed:</label>
+          <input type="year" placeholder="Product Name">
+       </div>
+     </form>
+
+<!-- This is the Driving Conditions Section -->
+  <h4 class="hd-info">Driving Conditions</h4>
+<form class=>
+     <div>
+      <label for="model">What road was the vehicle tested on?
+        <input type="checkbox" name="dirt"> Street
+        <input type="checkbox" name="street"> Dirt
+      </label>
+     </div>
+     <div>
+      <label for="model">Conditions?
+        <input type="checkbox" name="dry"> Dry
+        <input type="checkbox" name="wet"> Wet
+        <input type="checkbox" name="bumps"> Bumps
+        <input type="checkbox" name="drops"> Drops
+        <input type="checkbox" name="whoops"> Whoops
+        <input type="checkbox" name="potholes"> Potholes
+      </label>
+     </div>
+   </form>
+<!-- This is the Vehicle Dynamics Section -->
+  <h5 class="hd-info">Vehicle Dynamics</h5>
+<form class=>
+     <div>
+      <label for="model">Turning?
+        <input type="checkbox"> Full Lock
+        <input type="checkbox"> Light
+        <input type="checkbox"> Medium
+        <input type="checkbox"> Heavy
+        <input type="checkbox"> Factory Feel
+      </label>
+     </div>
+     <div>
+      <label for="model">Braking?
+        <input type="checkbox"> Increased
+        <input type="checkbox"> Decreased
+        <input type="checkbox"> Factory
+      </label>
+     </div>
+     <div>
+      <label for="model">Suspension?
+        <input type="checkbox"> Stiff
+        <input type="checkbox"> Soft
+        <input type="checkbox"> Front and Rear Imbalance
+      </label>
+     </div>
+   </form>
+<!-- This is the Lift Achieved Section -->
+  <h6 class="hd-info">Lift Information</h6>
+<form class=>
+     <div>
+      <label for="model">What type of road was the vehicle tested on?
+        <input type="checkbox" name="dirt"> Street
+        <input type="checkbox" name="street"> Dirt
+      </label>
+     </div>
+     <div>
+      <label for="model">Conditions?
+        <input type="checkbox" name="dry"> Dry
+        <input type="checkbox" name="wet"> Wet
+        <input type="checkbox" name="bumps"> Bumps
+        <input type="checkbox" name="drops"> Drops
+        <input type="checkbox" name="whoops"> Whoops
+        <input type="checkbox" name="potholes"> Potholes
+      </label>
+     </div>
+   </form>
+<!-- This is the Additional Notes/ Comments Section -->
+  <h7 class="hd-info">Additional Notes/ Comments</h7>
